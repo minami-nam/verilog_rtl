@@ -1,0 +1,49 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Vivado generated directories
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+xsim.dir/
+
+# Vivado logs and reports
+*.jou
+*.log
+*.str
+*.pb
+*.rpt
+*.rpx
+
+# Generated FPGA outputs and checkpoints
+*.bit
+*.bin
+*.dcp
+*.ltx
+
+# Simulation outputs
+*.vcd
+*.wdb
+*.wlf
+*.vvp
+transcript
+work/
+
+# Verilator outputs
+obj_dir/
+
+# Temporary and backup files
+*.bak
+*.orig
+*.rej
+*.tmp
