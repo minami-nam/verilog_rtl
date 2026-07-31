@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_rv32_ooo_core_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_rv32_ooo_core_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,502.001 ns"></ZoomEndTime>
+      <Cursor1Time time="300.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="236"></NameColumnWidth>
+      <ValueColumnWidth column_width="107"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="117" />
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/ACLK">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/ARESETn">
+      <obj_property name="ElementShortName">ARESETn</obj_property>
+      <obj_property name="ObjectShortName">ARESETn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/fetch_enable">
+      <obj_property name="ElementShortName">fetch_enable</obj_property>
+      <obj_property name="ObjectShortName">fetch_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/irq_software">
+      <obj_property name="ElementShortName">irq_software</obj_property>
+      <obj_property name="ObjectShortName">irq_software</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/irq_timer">
+      <obj_property name="ElementShortName">irq_timer</obj_property>
+      <obj_property name="ObjectShortName">irq_timer</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/irq_external">
+      <obj_property name="ElementShortName">irq_external</obj_property>
+      <obj_property name="ObjectShortName">irq_external</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_awid">
+      <obj_property name="ElementShortName">m_axi_awid[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awid[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_awaddr">
+      <obj_property name="ElementShortName">m_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_awlen">
+      <obj_property name="ElementShortName">m_axi_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_awsize">
+      <obj_property name="ElementShortName">m_axi_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_awburst">
+      <obj_property name="ElementShortName">m_axi_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_awlock">
+      <obj_property name="ElementShortName">m_axi_awlock</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awlock</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_awcache">
+      <obj_property name="ElementShortName">m_axi_awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_awprot">
+      <obj_property name="ElementShortName">m_axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_awqos">
+      <obj_property name="ElementShortName">m_axi_awqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_awregion">
+      <obj_property name="ElementShortName">m_axi_awregion[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awregion[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_awuser">
+      <obj_property name="ElementShortName">m_axi_awuser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awuser[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_awvalid">
+      <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_awready">
+      <obj_property name="ElementShortName">m_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_wdata">
+      <obj_property name="ElementShortName">m_axi_wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_wstrb">
+      <obj_property name="ElementShortName">m_axi_wstrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wstrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_wlast">
+      <obj_property name="ElementShortName">m_axi_wlast</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_wuser">
+      <obj_property name="ElementShortName">m_axi_wuser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wuser[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_wvalid">
+      <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_wready">
+      <obj_property name="ElementShortName">m_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_bid">
+      <obj_property name="ElementShortName">m_axi_bid[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bid[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_bresp">
+      <obj_property name="ElementShortName">m_axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_buser">
+      <obj_property name="ElementShortName">m_axi_buser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_buser[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_bvalid">
+      <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_bready">
+      <obj_property name="ElementShortName">m_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_arid">
+      <obj_property name="ElementShortName">m_axi_arid[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arid[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_araddr">
+      <obj_property name="ElementShortName">m_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_arlen">
+      <obj_property name="ElementShortName">m_axi_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_arsize">
+      <obj_property name="ElementShortName">m_axi_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_arburst">
+      <obj_property name="ElementShortName">m_axi_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_arlock">
+      <obj_property name="ElementShortName">m_axi_arlock</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arlock</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_arcache">
+      <obj_property name="ElementShortName">m_axi_arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_arprot">
+      <obj_property name="ElementShortName">m_axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_arqos">
+      <obj_property name="ElementShortName">m_axi_arqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_arregion">
+      <obj_property name="ElementShortName">m_axi_arregion[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arregion[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_aruser">
+      <obj_property name="ElementShortName">m_axi_aruser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_aruser[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_arvalid">
+      <obj_property name="ElementShortName">m_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_arready">
+      <obj_property name="ElementShortName">m_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_rid">
+      <obj_property name="ElementShortName">m_axi_rid[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rid[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_rdata">
+      <obj_property name="ElementShortName">m_axi_rdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rdata[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_rresp">
+      <obj_property name="ElementShortName">m_axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_rlast">
+      <obj_property name="ElementShortName">m_axi_rlast</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/m_axi_ruser">
+      <obj_property name="ElementShortName">m_axi_ruser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_ruser[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_rvalid">
+      <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/m_axi_rready">
+      <obj_property name="ElementShortName">m_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/commit_valid">
+      <obj_property name="ElementShortName">commit_valid</obj_property>
+      <obj_property name="ObjectShortName">commit_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/retire_valid">
+      <obj_property name="ElementShortName">retire_valid</obj_property>
+      <obj_property name="ObjectShortName">retire_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/commit_rob_tag">
+      <obj_property name="ElementShortName">commit_rob_tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">commit_rob_tag[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/commit_pc">
+      <obj_property name="ElementShortName">commit_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">commit_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/commit_inst">
+      <obj_property name="ElementShortName">commit_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">commit_inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/commit_arch_rd">
+      <obj_property name="ElementShortName">commit_arch_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">commit_arch_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/commit_phys_rd">
+      <obj_property name="ElementShortName">commit_phys_rd[5:0]</obj_property>
+      <obj_property name="ObjectShortName">commit_phys_rd[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/commit_write_rd">
+      <obj_property name="ElementShortName">commit_write_rd</obj_property>
+      <obj_property name="ObjectShortName">commit_write_rd</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/csr_mstatus">
+      <obj_property name="ElementShortName">csr_mstatus[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_mstatus[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/csr_mie">
+      <obj_property name="ElementShortName">csr_mie[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_mie[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/csr_mip">
+      <obj_property name="ElementShortName">csr_mip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_mip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/csr_mtvec">
+      <obj_property name="ElementShortName">csr_mtvec[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_mtvec[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/csr_mepc">
+      <obj_property name="ElementShortName">csr_mepc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_mepc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/csr_mcause">
+      <obj_property name="ElementShortName">csr_mcause[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_mcause[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/csr_mtval">
+      <obj_property name="ElementShortName">csr_mtval[31:0]</obj_property>
+      <obj_property name="ObjectShortName">csr_mtval[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/free_count">
+      <obj_property name="ElementShortName">free_count[6:0]</obj_property>
+      <obj_property name="ObjectShortName">free_count[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/rob_full">
+      <obj_property name="ElementShortName">rob_full</obj_property>
+      <obj_property name="ObjectShortName">rob_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/iq_full">
+      <obj_property name="ElementShortName">iq_full</obj_property>
+      <obj_property name="ObjectShortName">iq_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/lsq_full">
+      <obj_property name="ElementShortName">lsq_full</obj_property>
+      <obj_property name="ObjectShortName">lsq_full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/recovery_busy">
+      <obj_property name="ElementShortName">recovery_busy</obj_property>
+      <obj_property name="ObjectShortName">recovery_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/pc_err">
+      <obj_property name="ElementShortName">pc_err</obj_property>
+      <obj_property name="ObjectShortName">pc_err</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/read_active">
+      <obj_property name="ElementShortName">read_active</obj_property>
+      <obj_property name="ObjectShortName">read_active</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/read_addr">
+      <obj_property name="ElementShortName">read_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/read_len">
+      <obj_property name="ElementShortName">read_len[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_len[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/read_beat">
+      <obj_property name="ElementShortName">read_beat[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_beat[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/read_wait">
+      <obj_property name="ElementShortName">read_wait[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_wait[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/write_active">
+      <obj_property name="ElementShortName">write_active</obj_property>
+      <obj_property name="ObjectShortName">write_active</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/write_response_pending">
+      <obj_property name="ElementShortName">write_response_pending</obj_property>
+      <obj_property name="ObjectShortName">write_response_pending</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/write_addr">
+      <obj_property name="ElementShortName">write_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/write_len">
+      <obj_property name="ElementShortName">write_len[7:0]</obj_property>
+      <obj_property name="ObjectShortName">write_len[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/write_beat">
+      <obj_property name="ElementShortName">write_beat[7:0]</obj_property>
+      <obj_property name="ObjectShortName">write_beat[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/write_id">
+      <obj_property name="ElementShortName">write_id[2:0]</obj_property>
+      <obj_property name="ObjectShortName">write_id[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/write_wait">
+      <obj_property name="ElementShortName">write_wait[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_wait[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/cycle_count">
+      <obj_property name="ElementShortName">cycle_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/start_cycle">
+      <obj_property name="ElementShortName">start_cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">start_cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/retired_count">
+      <obj_property name="ElementShortName">retired_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">retired_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/error_count">
+      <obj_property name="ElementShortName">error_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/log_fd">
+      <obj_property name="ElementShortName">log_fd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">log_fd[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/dispatch_cycle">
+      <obj_property name="ElementShortName">dispatch_cycle[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">dispatch_cycle[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/complete_cycle">
+      <obj_property name="ElementShortName">complete_cycle[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">complete_cycle[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/total_retire_latency">
+      <obj_property name="ElementShortName">total_retire_latency[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_retire_latency[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/total_complete_latency">
+      <obj_property name="ElementShortName">total_complete_latency[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_complete_latency[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/complete_samples">
+      <obj_property name="ElementShortName">complete_samples[31:0]</obj_property>
+      <obj_property name="ObjectShortName">complete_samples[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/min_retire_latency">
+      <obj_property name="ElementShortName">min_retire_latency[31:0]</obj_property>
+      <obj_property name="ObjectShortName">min_retire_latency[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/max_retire_latency">
+      <obj_property name="ElementShortName">max_retire_latency[31:0]</obj_property>
+      <obj_property name="ObjectShortName">max_retire_latency[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/phys_scoreboard">
+      <obj_property name="ElementShortName">phys_scoreboard[0:63][31:0]</obj_property>
+      <obj_property name="ObjectShortName">phys_scoreboard[0:63][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/arch_scoreboard">
+      <obj_property name="ElementShortName">arch_scoreboard[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">arch_scoreboard[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rv32_ooo_core_top/program_done">
+      <obj_property name="ElementShortName">program_done</obj_property>
+      <obj_property name="ObjectShortName">program_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/WIDTH_INST">
+      <obj_property name="ElementShortName">WIDTH_INST[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH_INST[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/ADDR_WIDTH">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/DATA_WIDTH">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/ARCH_REGS">
+      <obj_property name="ElementShortName">ARCH_REGS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ARCH_REGS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/PHYS_REGS">
+      <obj_property name="ElementShortName">PHYS_REGS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PHYS_REGS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/ROB_ENTRIES">
+      <obj_property name="ElementShortName">ROB_ENTRIES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ROB_ENTRIES[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/AXI_DATA_WIDTH">
+      <obj_property name="ElementShortName">AXI_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/AXI_ID_WIDTH">
+      <obj_property name="ElementShortName">AXI_ID_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_ID_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/AXI_STRB_WIDTH">
+      <obj_property name="ElementShortName">AXI_STRB_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AXI_STRB_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/MEM_BYTES">
+      <obj_property name="ElementShortName">MEM_BYTES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_BYTES[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/MAX_CYCLES">
+      <obj_property name="ElementShortName">MAX_CYCLES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_CYCLES[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/READ_LATENCY">
+      <obj_property name="ElementShortName">READ_LATENCY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">READ_LATENCY[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/WRITE_RESP_LATENCY">
+      <obj_property name="ElementShortName">WRITE_RESP_LATENCY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WRITE_RESP_LATENCY[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/PROGRAM_BASE">
+      <obj_property name="ElementShortName">PROGRAM_BASE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PROGRAM_BASE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/WRONG_PATH_PC">
+      <obj_property name="ElementShortName">WRONG_PATH_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WRONG_PATH_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/DONE_STORE_PC">
+      <obj_property name="ElementShortName">DONE_STORE_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DONE_STORE_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/DATA_ADDR">
+      <obj_property name="ElementShortName">DATA_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/CSR_DATA_ADDR">
+      <obj_property name="ElementShortName">CSR_DATA_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSR_DATA_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rv32_ooo_core_top/DONE_ADDR">
+      <obj_property name="ElementShortName">DONE_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DONE_ADDR[31:0]</obj_property>
+   </wvobject>
+</wave_config>
